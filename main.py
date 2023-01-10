@@ -1,11 +1,8 @@
 def makesumofdigits(number):
     sumofdigits = 0
-    while number // 10 > 0:
+    while number % 10 > 0:
         sumofdigits += number % 10
         number = number // 10
-        if len(str(number)) == 1:
-            sumofdigits += int(str(number)[0])
-            break
     print("Calculated sum of digits: ")
     print(sumofdigits)
 
