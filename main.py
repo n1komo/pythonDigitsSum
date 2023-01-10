@@ -10,7 +10,6 @@ def makesumofdigits(number):
     print(sumofdigits)
 
 
-# userInput = input()
 try:
     print("Enter integer number via keyboard: ")
     makesumofdigits(int(input()))
